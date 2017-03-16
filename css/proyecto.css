@@ -38,33 +38,49 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 * { box-sizing: border-box; }
 html {
-    font-family: sans-serif; /* 1 */
+    font-family:'Montserrat', 'Roboto', sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
     background: #FFFFFF;
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.65;
+      height: 100%;
+    width: 100%;
     opacity: 0;
     overflow-x: hidden;
     transition: opacity 0.25s ease-in 0.1s;
     word-wrap: break-word;
     -webkit-text-size-adjust: none;
 }
+
+
+
 body.loaded,
 .no-js body {
     opacity: 1;
 }
-a, a:visited {
-    color: #90D4C5;
-    text-decoration: none;
-    transition: color 0.1s ease-in-out;
+a {
+    color: #262e48;
+    text-decoration: line-through;
+    transition: ease .6s;
+    -webkit-transition: ease .6s;
+    -moz-transition: ease .6s;
+    -o-transition: ease .6s;
+    -ms-transition: ease .6s;
 }
-a:hover, a:active {
-    color: #2c2c2c;
+
+a:hover {
+    text-decoration: none;
+    color: #818181;
+}
+
+a:focus {
+    outline: none;
+    color: #999999;
     text-decoration: none;
 }
 
@@ -138,7 +154,7 @@ hr{
 pre,
 code,
 samp {
-    font-family: "quicksand", Consolas, monospace;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: inherit;
 }
 
@@ -151,7 +167,6 @@ code {
 pre {
     margin-top: 0;
     margin-bottom: 1rem;
-    overflow-x: scroll;
     padding: 1rem;
 }
 
@@ -184,7 +199,7 @@ pre {
 
 /*===== Titles =====*/
 .site-title {
-    font-family: 'Righteous',helvetica,sans-serif;
+     font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: 26px;
     color: #90D4C5;
     line-height: 1.5em;
@@ -586,7 +601,7 @@ pre {
 }
 .thumbnail-title {
     color: #2c2c2c;
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: 21px;
     margin: 0 auto 10px auto;
     text-align: left;
@@ -598,7 +613,7 @@ pre {
 }
 .thumbnail-description {
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+      font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: 16px;
     margin: 0 auto;
     max-height: 5em;
@@ -630,7 +645,7 @@ div.image img { width: 100%; }
 }
 /*===== Project Content =====*/
 .project-meta {
-    font-family: 'quicksand', Arial, sans-serif;
+     font-family: 'Montserrat', 'Roboto', sans-serif;
     font-size: 14px;
     color: #BBBBBB;
     margin-top: 28px;
@@ -981,7 +996,7 @@ nav[role="navigation"] {
 /*=================================*/
 .site-footer {
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+      font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 .site-footer p { margin: 0; font-size: 16px;display: inline;}
 .site-footer a,

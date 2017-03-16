@@ -6,11 +6,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'titulo';
-    src: url('../fonts/HelloStockholm-Regular.ttf');
-}
-
 *,
 *:after,
 *:before {
@@ -50,7 +45,7 @@ body {
 
 a {
     color: #262e48;
-    text-decoration: none;
+    text-decoration: line-through;
     transition: ease .6s;
     -webkit-transition: ease .6s;
     -moz-transition: ease .6s;
@@ -143,6 +138,7 @@ img {
     margin-bottom: 75px;
     margin-left: -7px;
     color: #121212;
+    font-family: "Montserrat","Roboto", sans-serif;
 
     
 }
@@ -559,7 +555,7 @@ p {
     letter-spacing: 0.6px;
     color: white;
     font-size: 130px;
-    font-family: 'titulo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #home .typed {
@@ -2064,7 +2060,7 @@ font-size:10px;
     bottom:0px;
     width:100%;
     color:white;
-    font-family:'montserrat',
+    font-family:'Montserrat',
     'Roboto',
     sans-serif;
     z-index:99999;
@@ -2098,9 +2094,7 @@ font-size:10px;
 .cookie-container .fa:after {
     content:attr(alt);
     position:absolute;
-    font-family:'Montserrat',
-    'Roboto',
-    sans-serif;
+    font-family:'Montserrat','Roboto',sans-serif;
     white-space:nowrap;
     padding:5px 10px;
     background:#f9f9f9;
