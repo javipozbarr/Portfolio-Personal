@@ -129,33 +129,23 @@ img {
 
 .white-col {
     background: #ffffff;
-    padding: none;
-}
-
-.title-small span {
-    color: #fff;
-    padding: 10px;
-    z-index: 2;
-    text-transform: uppercase;
-}
-
-.title-small span {
-    position: relative;
-}
-
-.title-small span:after {
-    content: "";
-    position: absolute;
-    bottom: 0px;
+    padding: 0;
+    margin: 0;
+    min-height: 660px;
     height: 100%;
-    background-image: -moz-linear-gradient(45deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
-    background-image: -webkit-linear-gradient(45deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
-    background-image: -ms-linear-gradient(45deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
-    box-shadow: 0px 0px 20px 0px rgba(255, 101, 144, 0.3);
-    width: 100%;
-    left: 0;
-    z-index: -10;
+
 }
+
+.title-small span {
+    font-size: 70px;
+    line-height: 150px;
+    font-weight: 700;
+    margin-bottom: 75px;
+    margin-left: -7px;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    
+}
+
 
 .title-small-center span {
     position: relative;
@@ -176,16 +166,15 @@ img {
 }
 
 .grey-bg {
-    background-image: url(../images/background.png);
+  /*   background-image: url(../images/background.png);
     background-repeat: repeat;
-    background-color: #fafafe;
+   background-color: #fafafe;*/
     padding: 120px 0;
     display: block;
     -webkit-animation: backanim 45s linear infinite;
 }
 
 .white-bg {
-    background: #ffffff;
     padding: 120px 0;
     display: block;
     z-index: -8;
@@ -207,7 +196,7 @@ img {
     margin-top: 15%;
     line-height: 30px;
     font-size: 14px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.1em;
 }
 
 
@@ -832,9 +821,8 @@ p {
 
 
 .head-sm {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
-    letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -847,7 +835,6 @@ p {
 .text-grey {
     color: #434343;
     line-height: 26px;
-    margin-bottom: 60px;
     z-index: 3;
     text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -897,7 +884,7 @@ p {
 
 .card {
     background: #ffffff;
-    padding: 30px 35px 45px 35px;
+    padding: 30px 18px 45px 18px;
     margin-bottom: 30px;
     border: 1px solid rgba(129, 129, 129, 0.1);
 }
@@ -2207,7 +2194,7 @@ font-size:10px;
 
 
 .grid-item{
-    width: 25%;
+    width: 33.33%;
 }
 
 .grid-item img{
@@ -2237,7 +2224,7 @@ font-size:10px;
 .desc{
     position:absolute;
     z-index: 1;
-    top: 45%;
+    top: 40%;
     left: 0;
     right: 0;
     text-align: center;
@@ -2250,4 +2237,40 @@ font-size:10px;
     visibility: visible;
     opacity: 1;
 
+}
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#grid{
+    position: fixed;
+    width: 100%;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#grid .col-xs-3 .grid-line.hey {
+    height: 100vh;
+    transition: height 1.2s ease;
+}
+
+#grid .col-xs-3:last-child .grid-line {
+    height: 100vh;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#grid .col-xs-3 .grid-line {
+    height: 0vh;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[class*='col-'] {
+    padding-left: 0; 
+    padding-right: 0;
 }
