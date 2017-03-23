@@ -691,6 +691,11 @@ p {
     .footer-bottom h1 {
         font-size: 100px
     }
+
+    .title-small span{
+        font-size: 50px;
+            line-height: normal;
+    }
 }
 
 @media only screen and (max-width:420px) {
@@ -704,7 +709,11 @@ p {
         font-size: 200px
     }
     .footer-bottom h1 {
-        font-size: 70px
+        font-size: 70px;
+    }
+     .title-small span{
+        font-size: 40px;
+         line-height: normal;
     }
 }
 
@@ -2269,6 +2278,7 @@ font-size:10px;
     padding-left: 0; 
     padding-right: 0;
 }
+<<<<<<< HEAD
 
 /* Styling */
 .timeline {
@@ -2364,3 +2374,5 @@ font-size:10px;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
 }
+=======
+>>>>>>> origin/master
