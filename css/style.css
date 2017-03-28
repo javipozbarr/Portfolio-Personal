@@ -673,7 +673,7 @@ p {
 }
 
 #home {
-    background-image: url(../images/alone.jpg);
+    background-image: url(../images/hero2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -691,7 +691,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(32, 26, 22, .7);
+    background: rgba(32, 26, 22, .4);
 }
 
 
