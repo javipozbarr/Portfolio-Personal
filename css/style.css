@@ -893,12 +893,12 @@ p {
 .bg-about {
     width: 100%;
     filter: grayscale(100%);
-    -moz-transform: scaleX(-1);
+   /* -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: FlipH;
-    -ms-filter: "FlipH";
+    -ms-filter: "FlipH";*/
    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.27), 0 0 6rem rgba(0, 0, 0, 0.06);
 }
 
@@ -2129,15 +2129,12 @@ font-size:10px;
     width:10px;
 }
 ::-webkit-scrollbar, ::-webkit-scrollbar-track {
-    background-color:transparent;
+    background-color:#121212;
 }
 ::-webkit-scrollbar-thumb {
-    background:-webkit-linear-gradient(top,
-    #ff3c64,
-    #ff8965);
-    background:linear-gradient(to bottom,
-    #ff3c64,
-    #ff8965);
+   background-image: -moz-linear-gradient(90deg, rgb(109, 104, 254) 0%, rgb(183, 69, 240) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(109, 104, 254) 0%, rgb(183, 69, 240) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(109, 104, 254) 0%, rgb(183, 69, 240) 100%);
 }
 
 

@@ -1,3 +1,8 @@
+<a href="http://educalvolopez.com/">
+    <img src="images/logonegro.svg" alt="Edu Logo"
+         title="Edu Logo" align="right" />
+</a>
+
 # Portfolio OnePage [![bitHound Overall Score](https://www.bithound.io/github/edumusiclife/Portfolio-Personal/badges/score.svg)](https://www.bithound.io/github/edumusiclife/Portfolio-Personal)
 
 Portfolio One Page, con secciones de skills, educación, trabajo, contacto..
