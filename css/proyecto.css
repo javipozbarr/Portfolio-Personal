@@ -697,9 +697,15 @@ nav[role="navigation"] {
 }
 .cd-pagination a {
   border: 1px solid #e6e6e6;
+     box-shadow: 0 15px 30px rgba(0, 0, 0, .07);
 }
 .no-touch .cd-pagination a:hover {
-  background-color: #f2f2f2;
+    background: linear-gradient(to left, rgb(224, 0, 77), rgb(255, 184, 140));
+    transition: 225ms ease all;
+    -webkit-transition: 225ms ease all;
+    will-change: transition;
+    color: #fff!important;
+    text-decoration: none;
 }
 .cd-pagination a:active {
   /* click effect */
@@ -763,6 +769,7 @@ nav[role="navigation"] {
   /* set margin-top = icon height/2 */
   margin-top: -8px;
   background: transparent url("../images/cd-icon-arrow.svg") no-repeat center center;
+
 }
 
 .cd-pagination.custom-icons .button-main a {
@@ -775,10 +782,12 @@ nav[role="navigation"] {
   -webkit-transition: border 1s;
   -moz-transition: border 1s;
   transition: border 1s;
+
 }
 
 .cd-pagination.custom-icons .button:first-of-type a::before {
   left: .8em;
+
 }
 .cd-pagination.custom-icons .button:last-of-type a::after {
   right: .8em;
@@ -787,6 +796,7 @@ nav[role="navigation"] {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+
 }
 
 .cd-pagination.animated-buttons a, 
@@ -795,10 +805,12 @@ nav[role="navigation"] {
   height: 50px;
   line-height: 50px;
   overflow: hidden;
+
 }
 .cd-pagination.animated-buttons .button a {
   position: relative;
   padding: 0 2em;
+
 }
 .cd-pagination.animated-buttons .button:first-of-type a::before,
 .cd-pagination.animated-buttons .button:last-of-type a::after {
@@ -812,6 +824,7 @@ nav[role="navigation"] {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+
 }
 .cd-pagination.animated-buttons .button:last-of-type a::after {
   -webkit-transform: translateX(-50%) rotate(180deg);
@@ -819,6 +832,7 @@ nav[role="navigation"] {
   -ms-transform: translateX(-50%) rotate(180deg);
   -o-transform: translateX(-50%) rotate(180deg);
   transform: translateX(-50%) rotate(180deg);
+
 }
 .cd-pagination.animated-buttons i {
   display: block;
@@ -833,6 +847,7 @@ nav[role="navigation"] {
   transition: transform 0.3s;
   font-style: normal;
 
+
 }
 
 .no-touch .cd-pagination.animated-buttons .button a:hover i {
@@ -841,6 +856,7 @@ nav[role="navigation"] {
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+
 }
 
 .no-touch .cd-pagination.animated-buttons .button:first-of-type a:hover::before {
@@ -849,6 +865,7 @@ nav[role="navigation"] {
   -ms-transform: translateX(-50%) translateY(-50px);
   -o-transform: translateX(-50%) translateY(-50px);
   transform: translateX(-50%) translateY(-50px);
+
 }
 
 .no-touch .cd-pagination.animated-buttons .button:last-of-type a:hover::after {
@@ -857,6 +874,7 @@ nav[role="navigation"] {
   -ms-transform: translateX(-50%) rotate(180deg) translateY(50px);
   -o-transform: translateX(-50%) rotate(180deg) translateY(50px);
   transform: translateX(-50%) rotate(180deg) translateY(50px);
+
 }
 
 
@@ -1368,9 +1386,9 @@ nav[role="navigation"] {
     padding: 10px;
     cursor: pointer;
     border: none;
-    background-image: -moz-linear-gradient(90deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
-    background-image: -ms-linear-gradient(90deg, rgb(255, 60, 100) 0%, rgb(255, 137, 101) 100%);
+   background-image: -moz-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
     box-shadow: 0px 0px 20px 0px rgba(255, 101, 144, 0.2);
 }
 .menu-button span {
