@@ -1,12 +1,12 @@
-# Portfolio OnePage [![bitHound Overall Score]
+# Portfolio OnePage [![bitHound Overall Score](https://www.bithound.io/github/edumusiclife/Portfolio-Personal/badges/score.svg)](https://www.bithound.io/github/edumusiclife/Portfolio-Personal)
 
 Portfolio One Page, con secciones de skills, educación, trabajo, contacto..
 
 ## Authors
 
-* **Eduardo Calvo** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Eduardo Calvo** - *Portfolio* - [Lets Go](https://www.educalvolopez.com)
 
 
 
 
-[![bitHound Overall Score](https://www.bithound.io/github/edumusiclife/Portfolio-Personal/badges/score.svg)](https://www.bithound.io/github/edumusiclife/Portfolio-Personal)
+
