@@ -37,7 +37,7 @@ html {
 }
 
 body {
-    color: #262e48;
+    color: #121212;
     font-size: 16px;
     line-height: 1.7;
     background-color: #fff;
@@ -53,28 +53,31 @@ a {
     -ms-transition: ease .6s;
 }
 
+a:hover {
+    text-decoration: none;
+
+}
+
+a:focus {
+    outline: none;
+    color: rgb(255, 60, 100);
+    text-decoration: none;
+}
+
+
 #gracias a {
     text-decoration: none;
 }
 
 #gracias img {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+     box-shadow: 0 15px 30px rgba(0, 0, 0, .07);
 }
 
 #gracias a:hover {
     text-decoration: line-through;
+       color:rgb(255, 60, 100);
 }
 
-a:hover {
-    text-decoration: none;
-    color: blue;
-}
-
-a:focus {
-    outline: none;
-    color: #999999;
-    text-decoration: none;
-}
 
 iframe {
     border: none;
@@ -1170,7 +1173,7 @@ p {
 
 .socials a {
     padding: 0.3em 0.8em;
-    color: rgba(255, 255, 255, 0.7);
+    color: #fff;
     position: relative;
     display: inline-block;
     letter-spacing: 1px;
@@ -1314,6 +1317,7 @@ p {
 
 .copyright {
     padding-right: 10%;
+    color: #fff;
 }
 
 .skillst {
