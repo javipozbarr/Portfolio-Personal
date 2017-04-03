@@ -1,5 +1,5 @@
 <a href="http://educalvolopez.com/">
-    <img src="images/logonegro.svg" alt="Edu Logo"
+    <img src="http://educalvolopez.com/images/logonegro.svg" alt="Edu Logo"
          title="Edu Logo" align="right" />
 </a>
 
