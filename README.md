@@ -1,6 +1,6 @@
 <a href="http://educalvolopez.com/">
     <img src="http://educalvolopez.com/images/logonegro.svg" alt="Edu Logo"
-         title="Edu Logo" align="right" />
+         title="Edu Logo" align="right" height="82" width="82"/>
 </a>
 
 # Portfolio OnePage [![bitHound Overall Score](https://www.bithound.io/github/edumusiclife/Portfolio-Personal/badges/score.svg)](https://www.bithound.io/github/edumusiclife/Portfolio-Personal)
