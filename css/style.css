@@ -2152,27 +2152,7 @@ font-size:10px;
     background-color:#121212;
 }
 ::-webkit-scrollbar-thumb {
-    background-image: -moz-linear-gradient(90deg,
-    rgb(224,
-    0,
-    77) 0%,
-    rgb(255,
-    184,
-    140) 100%);
-    background-image: -webkit-linear-gradient(90deg,
-    rgb(224,
-    0,
-    77) 0%,
-    rgb(255,
-    184,
-    140) 100%);
-    background-image: -ms-linear-gradient(90deg,
-    rgb(224,
-    0,
-    77) 0%,
-    rgb(255,
-    184,
-    140) 100%);
+    background-color: rgb(224,0,77);
 }
 .grid-item {
     width: 33.33%;
