@@ -7,7 +7,7 @@
 
 Portfolio One Page, con secciones de skills, educación, trabajo, contacto..
 
-## Authors
+## Autor
 
 * **Eduardo Calvo** - *Portfolio* - [Lets Go](https://www.educalvolopez.com)
 
