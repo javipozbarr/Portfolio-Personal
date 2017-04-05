@@ -2057,7 +2057,6 @@ font-size:10px;
 .back-title {
     font-size: 4rem;
     letter-spacing: 1px;
-    z-index: -1;
     color: #121212;
     font-family: "montserrat",sans-serif;
     text-align: center;
