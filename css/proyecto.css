@@ -58,8 +58,6 @@ body {
     -webkit-text-size-adjust: none;
 }
 
-
-
 body.loaded,
 .no-js body {
     opacity: 1;
