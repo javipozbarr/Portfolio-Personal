@@ -1015,6 +1015,12 @@ nav[role="navigation"] {
     transition: border 1s;
 }
 
+.cd-pagination.custom-icons .button-arrow a:hover {
+    border: 1px solid #2c2c2c;
+    -webkit-transition: border 1s;
+    transition: border 1s;
+}
+
 .cd-pagination.custom-icons .button:first-of-type a::before {
     left: .8em;
 }
