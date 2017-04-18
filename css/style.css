@@ -204,8 +204,14 @@ img {
 }
 
 .header {
+    position: absolute;
+    top: 0px;
     width: 100%;
-    z-index: 9999;
+    color: #fff;
+    line-height: normal;
+    vertical-align: middle;
+    z-index: 9001;
+}
 }
 
 .opacity-nav {
@@ -255,29 +261,28 @@ img {
 .menu-button {
     width: 45px;
     height: 45px;
-    position: fixed;
-    right: 0;
+    position: absolute;;
+    right: 5px;
+    top: 20px;
+    display: block;
     margin-top: 13px;
     margin-right: 35px;
     z-index: 1000;
     padding: 10px;
     cursor: pointer;
     border: none;
-    background-image: -moz-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
-    background-image: -ms-linear-gradient(90deg, rgb(224, 0, 77) 0%, rgb(255, 184, 140) 100%);
-    box-shadow: 0 0 20px 0 rgba(255, 101, 144, 0.2);
+    background-color: transparent;
+
 }
 
 .menu-button span {
     display: block;
     position: absolute;
-    height: 2px;
-    width: 55%;
+    height: 4px;
+    width: 33px;
     background: #fff;
-    border-radius: 9px;
+    border-radius: 4px;
     opacity: 1;
-    margin-top: 12px;
 }
 
 .menu-button span:nth-child(1) {
@@ -285,11 +290,11 @@ img {
 }
 
 .menu-button span:nth-child(2) {
-    top: 9px;
+    top: 10px;
 }
 
 .menu-button span:nth-child(3) {
-    top: 18px;
+    top: 20px;
 }
 
 .menu-button:hover {
@@ -1875,7 +1880,7 @@ font-size:10px;
     background-color: rgb(224, 0, 77);
 }
 .grid-item {
-    width: 33.33%;
+    width: 25%;
 }
 .grid-item img {
     width: 100%;
@@ -2077,7 +2082,7 @@ font-size:10px;
 .snip1205 {
     position: relative;
     overflow: hidden;
-    background: #000000;
+    background:rgb(224, 0, 77);
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
@@ -2103,7 +2108,7 @@ font-size:10px;
     left: 50%;
     border-radius: 50%;
     font-size: 34px;
-    color: #000000;
+    color: rgb(224, 0, 77);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -2146,4 +2151,100 @@ font-size:10px;
 }
 
 
+/* Contacto */
+section#lead {
+    margin-top: 0px;
+    border: 0px solid;
+    height: 100vh;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+section#lead #lead-bg {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
 
+section#lead #lead-bg #bgset-1 {
+    background-color: #FFF;
+    z-index: 30;
+}
+
+section#lead #lead-bg #bgset-1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+
+
+
+section#lead #lead-content {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 1500px) and (min-width: 768px){
+section#lead .lead-header {
+    width: 1000px;
+    }
+}
+section#lead .lead-header {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    z-index: 200;
+    height: 1000px;
+    width: 900px;
+    overflow: hidden;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+section#lead .lead-header .lead-text {
+    width: 0px;
+    padding-top: 7vw;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1500px) and (min-width: 768px){
+section#lead .lead-header h1 {
+    font-size: 35px;
+    line-height: 47px;
+}
+}
+
+section#lead .lead-header h1 {
+    font-size: 35px;
+    line-height: 60px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+section#lead .lead-header p, section#lead .lead-header h1 {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    max-width: 75vw;
+    margin-left: 5vw;
+    line-height: 25px;
+}
+
+section#lead .lead-header p {
+    color: white;
+    font-size: 18px;
+}
+section#lead .lead-header p, section#lead .lead-header h1 {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    max-width: 75vw;
+    margin-left: 5vw;
+    line-height: 25px;
+}
